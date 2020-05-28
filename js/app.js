@@ -11,6 +11,9 @@
       "apple",
       "middle",
       "engineer",
+      "fruit",
+      "guitar",
+      "baseball",
     ]
     let word = words[Math.floor(Math.random() * words.length)];
     let loc;
@@ -44,8 +47,10 @@
         setTimeout(() => {
           alert("Game Over");
         }, 100);
-
         target.textContent = "click to replay";
+        setTimeout(() => {
+          location.reload();
+        }, 300);
       } else if (scores.length === 5) {
         isPlaying = false;
         clearTimeout(timeoutId);
