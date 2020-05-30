@@ -12,25 +12,45 @@ body {
   height: 100%;
 }
 
-@media (max-width: 1180px) {
-  .telop > span {
-    font-size: 36px;
-  }
+@media (max-width: 951px) {
+  .balloon2-left,
+  .balloon2-right {
+    font-size: 13px;
+  }  
+}
 
-  .telop {
-    height: 57px;
-    font-size: 36px;
-  }
 
+@media (min-width: 951px) and (max-width: 1271px) {
   .balloon2-left,
   .balloon2-right {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 1271px) {
+  .balloon2-left,
+  .balloon2-right {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 999px) {
+  .telop {
+    height: 46px;
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 999px) and (max-width: 1180px) {
+  .telop {
+    height: 54px;
+    font-size: 36px;
   }
 
   .shinsain {
     color: black;
     font-size: 19px;
-  }  
+  }    
 }
 
 @media (min-width: 1180px) {
@@ -39,17 +59,11 @@ body {
     font-size: 45px;
   }
 
-  .balloon2-left,
-  .balloon2-right {
-    font-size: 20px;
-  }
-
   .shinsain {
     color: black;
     font-size: 25px;
   }  
 }
-
 
 .header {
   position: relative;
