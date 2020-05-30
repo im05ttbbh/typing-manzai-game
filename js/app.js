@@ -17,7 +17,7 @@
     ]
     let word = words[Math.floor(Math.random() * words.length)];
     let loc;
-    const timeLimit = 300 * 1000;
+    const timeLimit = 30 * 1000;
     let startTime;
     let isPlaying = false;
     const target = document.getElementById("target");
